@@ -37,7 +37,9 @@
   background-color:yellow;
 }
 
-
+.text{
+  padding: 20px;
+}
 
 .title{
   text-align: center;
