@@ -13,11 +13,14 @@
 
 .box1, .box2, .box3 {
   width: 25%;
-  height: 25px;
+  height: 30px;
   margin-left: auto;
   border: 1px solid black;
   border-top: none;
   border-right: none;
+  font-size: 125%;
+  text-align: center;
+  font-weight: bold;
 }
 
 
@@ -27,6 +30,8 @@
 
 .box2{
   background-color:red;
+  color: white;
+  
 }
 
 .box3{
@@ -38,6 +43,7 @@
 .title{
   text-align: center;
   margin: 20px;
+  font-size: 175%;
 }
 
 .col-1, .col-2, .col-3{
@@ -47,6 +53,7 @@
   margin-right: auto;
   margin-left: auto;
   border: 1px solid black;
+  font-size: 100%;
 }
 
 .container1, .container2, .container3{
@@ -58,8 +65,7 @@
 
 @media (min-width: 992px){
 
-  .container1, .container2, .container3{
-    
+  .container1, .container2, .container3{    
     width: 33.33%;
   }
   
